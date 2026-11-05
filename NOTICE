@@ -1,0 +1,16 @@
+RMUL2027 Sentry Simulation
+==========================
+
+本仓库的仿真器、导航栈来自深圳北理莫斯科大学北极熊战队（SMBU-PolarBear-Robotics-Team），
+遵循 Apache License 2.0：
+
+  - https://github.com/SMBU-PolarBear-Robotics-Team/rmu_gazebo_simulator
+  - https://github.com/SMBU-PolarBear-Robotics-Team/pb2025_sentry_nav
+  - https://github.com/SMBU-PolarBear-Robotics-Team/pb2025_robot_description
+
+场地资源（docker/models/rmul2027_field、docker/worlds/rmul_2027_world.sdf）
+来自 https://github.com/bombomdragon/rmul2027_field ，由原始 Blender 文件
+（RMUL2027_3V3_1to1.blend）转换得到。场地设计版权归原始设计方所有；
+仅供仿真与学习使用，商用或再分发前请先确认原始场地授权。
+
+本仓库新增的启动脚本、world 适配、构建脚本和文档以 Apache License 2.0 发布。
