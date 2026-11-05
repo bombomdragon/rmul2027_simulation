@@ -9,7 +9,7 @@
 ## 1. 包里有什么
 
 ```
-rmul2027_sentry_sim/
+rmul2027_simulation/
 ├── 启动仿真.sh          # 启动仿真（首次会自动构建/导入镜像）
 ├── 启动导航.sh          # 启动深北莫 pb2025_sentry_nav（Nav2 + point_lio，SLAM 模式）
 ├── 启动全部.sh          # 仿真 + 导航一起启动
@@ -53,7 +53,7 @@ rmul2027_sentry_sim/
 ## 3. 快速开始
 
 ```bash
-git clone https://github.com/bombomdragon/rmul2027_sentry_sim.git
+git clone https://github.com/bombomdragon/rmul2027_simulation.git
 cd rmul2027_sentry_sim
 chmod +x *.sh          # 如果 clone 后没有执行权限
 
